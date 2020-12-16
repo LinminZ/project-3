@@ -29,7 +29,8 @@ h2{
 }
 
 h3{
-  font-size:30px;  
+  font-size:30px; 
+  padding-left:30px;
 }
 
 h4{
@@ -60,6 +61,8 @@ h6{
 
 .talk1 {
   padding-bottom:70px;
+  background-color:white;
+  margin-left:0
 }
 
 .talk2 {
