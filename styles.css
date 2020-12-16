@@ -8,7 +8,7 @@ body {
 
 h1 {
   font-family: 'Architects Daughter', cursive;
-  font-size: 48px;
+  font-size: 52px;
   text-transform: capitalize;
   font-weight: bold;
   text-align: center;
@@ -17,10 +17,18 @@ h1 {
 
 h2{
    font-family: 'Architects Daughter', cursive;
-   font-size: 30px;
+   font-size: 40px;
   font-weight: bold;
     color: hsl(39.6,98.7%,70.8%); 
   
+}
+
+h3{
+  font-size:30px;  
+}
+
+h4{
+  font-size:24px;
 }
 
 .u-list-reset {
@@ -31,9 +39,8 @@ h2{
 
 .u-list-inline li {
   display: inline-block;
-  padding-left: 10px;
-  padding-left: 10px;
 }
+
 nav {
   font-size: 24px;
   text-align: center;
