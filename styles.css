@@ -22,6 +22,18 @@ h2{
     color: hsl(39.6,98.7%,70.8%); 
   
 }
+
+.u-list-reset {
+  list-style: none;
+  margin: 0;
+  padding-left: 0;
+}
+
+.u-list-inline li {
+  display: inline-block;
+  padding-left: 10px;
+  padding-left: 10px;
+}
 nav {
   font-size: 24px;
   text-align: center;
@@ -38,6 +50,45 @@ nav a:hover,
 nav a:focus {
   color: hsl(20.4,55.6%,51.4%)
 }
+
+
+@media (min-width:375px) {
+  body {
+    background-color:hsl(38.7,40.4%,90.8%) ;
+  }
+  
+  
+@media (min-width:750px) {
+  body {
+    background-color: pink;
+  }
+
+  nav li {
+    display: inline-block;
+  }
+
+  nav li+li {
+    margin-left: 12px;
+  }
+}
+
+@media (min-width:1280px) {
+
+  header,
+  nav {
+    display: inline-block;
+  }
+
+  nav {
+    text-align: right;
+    width: calc(100% - 222px);
+  }
+}
+
+
+
+
+
 
 
 
