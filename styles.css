@@ -98,6 +98,16 @@ nav a:focus {
   }
 }
   
+  
+  .form {
+  list-style: none;
+  margin: 0;
+  padding-top:0;
+  padding-left: 0;
+  padding-bottom:30px;
+  line-height: 2;
+}
+
   * {
   box-sizing: border-box;
 }
@@ -109,17 +119,16 @@ nav a:focus {
   font-family: inherit;
   font-size: inherit;
   font-weight: inherit;
-  padding: 0;
-  text-align: inherit;  
-  background-color:hsl(39.6,98.7%,70.8%) ;
+  padding: 3px;
+  text-align: left;  
+  background-color:hsl(20.4,55.6%,51.4%) ;
   border: 2px solid hsl(282, 36%, 16%);
-  border-radius: 1px;
-  color: hsl(38.7,40.4%,90.8%);
+  color: white;
 }
 
 .button:hover,
 .button:focus {
- color:hsl(20.4,55.6%,51.4%); ;
+ color:hsl(39.6,98.7%,70.8%); ;
 }
 
 
