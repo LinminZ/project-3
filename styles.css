@@ -1,4 +1,8 @@
 
+* {
+  box-sizing: border-box;
+}
+
 body {
   background-color:hsl(38.7,40.4%,90.8%);
   font-family: 'Kanit', sans-serif;
@@ -118,6 +122,9 @@ nav a:focus {
     width: calc(100% - 222px);
   }
   
+  .speaker-photo,
+  .talk-information{
+    display: inline-block 
 }
   
   
